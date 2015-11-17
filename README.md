@@ -1,5 +1,5 @@
 # Root Helper
-Root Helper is s simple bash script that i wrote to make it a little easier to to find vectors for privilege escalation on a Linux box. I made it so that it downloads three scripts firectly from github. Namely:
+Root Helper is s simple bash script that i wrote to make it a little easier to to find vectors for privilege escalation on a Linux box. I made it so that it downloads three scripts directly from github. Namely:
 
 ```
 LinEnum
