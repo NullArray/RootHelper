@@ -25,8 +25,10 @@ To use the script you will need to get it to the box and run it without argyment
 roothelper.sh done
 ```
 
-And you're set. The credit for the other scripts/tools go to the original authots.
+And you're set. The credit for the other scripts/tools go to the original authors.
 
 https://github.com/rebootuser/LinEnum
+
 https://github.com/PenturaLabs/Linux_Exploit_Suggester
+
 https://github.com/pentestmonkey/unix-privesc-check
