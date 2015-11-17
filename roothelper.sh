@@ -30,4 +30,4 @@ else
 	echo ""Removing scripts""
 	find $PATH/* -exec rm {} \;
 exit 2
-fi
+fi 
