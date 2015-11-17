@@ -23,7 +23,7 @@ do
             echo "Could not unpack $zip - cd failed"
         fi
    	else
-        echo "Could not unpack $zip - mkdir failed"
+            echo "Could not unpack $zip - mkdir failed"
     fi
 	exit 1
 else
