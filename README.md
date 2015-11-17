@@ -19,7 +19,7 @@ unix-privesc-check
 
 To run a couple of privilege escalation cecks.
 
-To use the script you will need to get it to the box and run it without argyments. All the scripts get downloaded to the /tmp/ directory and when you're done using them you can run roothelper.sh with an argument to remove everything that was downloaded to that directory again. In example:
+To use the script you will need to get it on the box you've compromised and run it without arguments. All the scripts get downloaded to the /tmp/ directory and when you're done using them you can run roothelper.sh with an argument to remove everything that was downloaded to that directory again. In example:
 
 ```
 roothelper.sh done
