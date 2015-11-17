@@ -19,15 +19,15 @@ do
 			unzip ../$zip
 		cd ..
 		rm -f $zip 
-    else
-		echo "Could not unpack $zip - cd failed"
-    fi
+                else
+	            echo "Could not unpack $zip - cd failed"
+    		fi
 	else
-	 echo "Could not unpack $zip - mkdir failed"
+	    echo "Could not unpack $zip - mkdir failed"
 	fi
 	exit 1
-else
-	echo ""Removing scripts""
-	find $PATH/* -exec rm {} \;
-exit 2
-fi
+	else
+	    echo ""Removing scripts""
+	    find $PATH/* -exec rm {} \;
+        exit 2
+        fi
