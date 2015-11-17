@@ -8,7 +8,7 @@ then
     echo "Downloading and extracting scripts, when ready execute script with arg $1 to remove files"
     `wget -O /tmp/file1.zip https://github.com/rebootuser/LinEnum/archive/master.zip`                  
     `wget -O /tmp/file2.zip https://github.com/PenturaLabs/Linux_Exploit_Suggester/archive/master.zip`  
-	`wget -O /tmp/file3.zip https://github.com/pentestmonkey/unix-privesc-check/archive/1_x.zip`   
+    `wget -O /tmp/file3.zip https://github.com/pentestmonkey/unix-privesc-check/archive/1_x.zip`   
 for zip in *.zip
 do
     dirname=`echo $zip | sed 's/\.zip$//'`
