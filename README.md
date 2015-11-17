@@ -5,7 +5,7 @@ Root Helper is s simple bash script that i wrote to make it a little easier to t
 LinEnum
 ```
 
-To enumerate the system cinfugartion
+To enumerate the system configuration
 
 ```
 Linux_Exploit_Suggester
