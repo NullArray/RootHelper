@@ -28,7 +28,7 @@ then
         exit 1
     done
 else
-    echo ""Removing scripts""
+    echo "Removing scripts"
     find $PATH/* -exec rm {} \;
     exit 2
 fi
