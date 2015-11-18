@@ -17,7 +17,7 @@ To suggest any exploits particular to that system, and
 unix-privesc-check
 ```
 
-To run a couple of privilege escalation cecks.
+To run a couple of privilege escalation checks.
 
 To use the script you will need to get it on the box you've compromised and run it without arguments. All the scripts get downloaded to the /tmp/ directory and when you're done using them you can run roothelper.sh with an argument to remove everything that was downloaded to that directory again. In example:
 
