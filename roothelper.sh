@@ -14,6 +14,7 @@ note; if the 'mkdir' command is unavailable however, the operation will not succ
 The 'Clean up' option removes all downloaded files and 'Quit' exits roothelper.\n "
 }
 
+# Download and unzip
 function dzip()
 {    echo "Downloading and extracting scripts..."
     `wget -O /tmp/ExploitSuggest.py http://www.securitysift.com/download/linuxprivchecker.py`
