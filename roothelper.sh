@@ -17,7 +17,7 @@ The 'Clean up' option removes all downloaded files and 'Quit' exits roothelper.\
 function dzip()
 {    echo "Downloading and extracting scripts..."
     `wget -O /tmp/ExploitSuggest.py http://www.securitysift.com/download/linuxprivchecker.py`
-	`wget -O /tmp/LinEnum.zip https://github.com/rebootuser/LinEnum/archive/master.zip`                  
+	  `wget -O /tmp/LinEnum.zip https://github.com/rebootuser/LinEnum/archive/master.zip`                  
     `wget -O /tmp/ExploitSuggest_perl.zip https://github.com/PenturaLabs/Linux_Exploit_Suggester/archive/master.zip`  
     `wget -O /tmp/file3.zip https://github.com/pentestmonkey/unix-privesc-check/archive/1_x.zip`   
     for zip in *.zip
@@ -53,24 +53,24 @@ do
     case $opt in
         "Help")
             usage
-			printf "%b \n"
+						printf "%b \n"
             ;;
         "Download")
             echo "Downloading scripts to /tmp/"
-			`wget -O /tmp/ExploitSuggest.py http://www.securitysift.com/download/linuxprivchecker.py`
-			`wget -O /tmp/LinEnum.zip https://github.com/rebootuser/LinEnum/archive/master.zip`                  
-			`wget -O /tmp/ExploitSuggest_perl.zip https://github.com/PenturaLabs/Linux_Exploit_Suggester/archive/master.zip`  
-			`wget -O /tmp/file3.zip https://github.com/pentestmonkey/unix-privesc-check/archive/1_x.zip`   
-			printf "%b \n"
+						`wget -O /tmp/ExploitSuggest.py http://www.securitysift.com/download/linuxprivchecker.py`
+						`wget -O /tmp/LinEnum.zip https://github.com/rebootuser/LinEnum/archive/master.zip`                  
+						`wget -O /tmp/ExploitSuggest_perl.zip https://github.com/PenturaLabs/Linux_Exploit_Suggester/archive/master.zip`  
+						`wget -O /tmp/file3.zip https://github.com/pentestmonkey/unix-privesc-check/archive/1_x.zip`   
+						printf "%b \n"
             ;;
         "Download and unzip")
-			dzip
-			printf "%b \n"
-			;;
-		"Clean up")
+						dzip
+						printf "%b \n"
+						;;
+				"Clean up")
             echo "Removing downloaded files"
-			find $PATH/* -exec rm {} \;
-			printf "%b \n"
+						find $PATH/* -exec rm {} \;
+						printf "%b \n"
             ;;
         "Quit")
             break
