@@ -67,7 +67,7 @@ do
             dzip
             printf "%b \n"
             ;;
-		"Clean up")
+         "Clean up")
             echo "Removing downloaded files"
             find $PATH/* -exec rm {} \;
             printf "%b \n"
