@@ -1,5 +1,5 @@
 # RootHelper
-Roothelper will aid in the process of privilege escalation on a Linux system you compromised by fetching a number of enumeration
+Roothelper will aid in the process of privilege escalation on a Linux system that has been compromised, by fetching a number of enumeration
 and exploit suggestion scripts. The latest version downloads four scripts. Two enumeration shellscripts and two exploit suggesters, one written in perl and the other one in python.
 
 The credits for the scripts it fetches go to the original authors.
