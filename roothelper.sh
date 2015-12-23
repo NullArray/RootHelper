@@ -37,7 +37,6 @@ function dzip()
         else
             echo "Could not unpack $zip - mkdir failed"
         fi
-        exit 1
     done
 }
 
