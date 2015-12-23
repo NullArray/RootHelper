@@ -45,7 +45,7 @@ The 'Clean up' option removes all downloaded files and 'Quit' exits roothelper.
 
 
 
-Credits for other scripts go to their original authors.
+Credits for the other scripts go to their original authors.
 
 https://github.com/rebootuser/LinEnum
 
