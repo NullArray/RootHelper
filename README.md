@@ -6,7 +6,7 @@ The credits for the scripts it fetches go to the original authors.
 
 
 
-# Priv-esc scripts
+# Priv-Esc scripts
 
 ```
 LinEnum
@@ -21,12 +21,12 @@ Shellscript that enumerates the system configuration and runs some privilege esc
 ```
 linuxprivchecker
 ```
-A python implementation to suggest exploits particular to the system you've compromised.
+A python implementation to suggest exploits particular to the system that's been compromised.
 
 ```
 Linux_Exploit_Suggester
 ```
-A perl script that that does the same as the one mentioned before.
+A perl script that that does the same as the one mentioned above.
 
 # Usage
 
