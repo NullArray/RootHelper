@@ -40,7 +40,7 @@ function dzip()
     done
 }
 
-PATH="/tmp/"
+dir="/tmp/"
 
 usage
 
@@ -69,7 +69,7 @@ do
             ;;
          "Clean up")
             echo "Removing downloaded files"
-            find $PATH/* -exec rm {} \;
+            find $dir/* -exec rm {} \;
             printf "%b \n"
             ;;
         "Quit")
