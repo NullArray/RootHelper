@@ -1,6 +1,6 @@
 # RootHelper
 Roothelper will aid in the process of privilege escalation on a Linux system that has been compromised, by fetching a number of enumeration
-and exploit suggestion scripts. The latest version downloads four scripts. Two enumeration shellscripts and two exploit suggesters, one written in perl and the other one in python.
+and exploit suggestion scripts. The latest version downloads five scripts. Two enumeration shellscripts, one information gathering shellscript and two exploit suggesters, one written in perl and the other one in python.
 
 The credits for the scripts it fetches go to the original authors.
 
@@ -19,7 +19,7 @@ Shellscript that enumerates the system configuration and runs some privilege esc
 ```
 Firmwalker
 ```
-Shellscript that gathers useful information by searching the mounted firmware filesystem. For things such as IP addresses, passwords, common binaries and more. 
+Shellscript that gathers useful information by searching the mounted firmware filesystem. For things such as SSL and web server related files, config files, passwords, common binaries and more. 
 ```
 linuxprivchecker
 ```
