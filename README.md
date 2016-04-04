@@ -12,12 +12,14 @@ The credits for the scripts it fetches go to the original authors.
 LinEnum
 ```
 Shellscript that enumerates the system configuration.
-
 ```
-unix-privesc-check
+unix-privesc-check 
 ```
 Shellscript that enumerates the system configuration and runs some privilege escalation checks as well.
-
+```
+Firmwalker
+```
+Shellscript that gathers useful information by searching the mounted firmware filesystem. For things such as IP addresses, passwords, common binaries and more. 
 ```
 linuxprivchecker
 ```
@@ -54,3 +56,5 @@ https://github.com/PenturaLabs/Linux_Exploit_Suggester
 http://www.securitysift.com/download/linuxprivchecker.py
 
 https://github.com/pentestmonkey/unix-privesc-check
+
+https://github.com/craigz28/firmwalker
