@@ -6,7 +6,7 @@ The credits for the scripts it fetches go to the original authors.
 
 ## Note
 
-Recently i have added a new script to my Github page that follows the general principles of this script however it aims to be more comprehensive with regards to it's capabilities. Besides downloading scripts that aid in privilege escalation on a Linux system it also comes with functionality to enumerate the system in question and search for cleartext credentials and much more. It is in many regards RootHelper's successor and it can be found by clicking [here](https://github.com/NullArray/Bash-Kit-Multitool).
+I've recently added a new script to my Github that follows the general principles of this script however it aims to be more comprehensive with regards to it's capabilities. Besides downloading scripts that aid in privilege escalation on a Linux system it also comes with functionality to enumerate the system in question and search for cleartext credentials and much more. It is in many regards RootHelper's successor and it can be found by clicking [here](https://github.com/NullArray/Bash-Kit-Multitool).
 
 # Priv-Esc scripts
 
