@@ -57,7 +57,7 @@ do
             printf "%b \n"
             ;;
         "Download")
-            echo "Downloading scripts to /tmp/"
+            echo "Downloading scripts to $dir"
             `wget -O /tmp/ExploitSuggest.py http://www.securitysift.com/download/linuxprivchecker.py`
             `wget -O /tmp/LinEnum.zip https://github.com/rebootuser/LinEnum/archive/master.zip`                  
             `wget -O /tmp/ExploitSuggest_perl.zip https://github.com/PenturaLabs/Linux_Exploit_Suggester/archive/master.zip`
