@@ -34,7 +34,7 @@ A perl script that that does the same as the one mentioned above.
 
 # Usage
 
-To use the script you will need to get it on the system you've compromised, from there you can simply run it and it will show you the options available and an informational message regarding the options. For clarity i will post it below as well.
+To use the script you will need to get it on the system you've compromised with utilities such as `git` or `wget` depending on what is available to you on that particular system. From there you need to make it executable with `chmod +x roothelper.sh` After which run it and it will show you the options available and an informational message regarding the options. For clarity i have posted it below as well.
 
 ```
 The 'Help' option displays this informational message.
@@ -51,12 +51,15 @@ The 'Clean up' option removes all downloaded files and 'Quit' exits roothelper.
 
 Credits for the other scripts go to their original authors.
 
-https://github.com/rebootuser/LinEnum
+[LinEnum](https://github.com/rebootuser/LinEnum) by [RebootUser](https://github.com/rebootuser)
 
-https://github.com/PenturaLabs/Linux_Exploit_Suggester
+[Firmwalker](https://github.com/craigz28/firmwalker) by [Craigz28](https://github.com/craigz28)
 
-http://www.securitysift.com/download/linuxprivchecker.py
+[Linux Priv Checker](http://www.securitysift.com/download/linuxprivchecker.py) by [SecuritySift](http://www.securitysift.com)
 
-https://github.com/pentestmonkey/unix-privesc-check
+[Linux Exploit Suggester](https://github.com/PenturaLabs/Linux_Exploit_Suggester) by [PenturaLabs](https://github.com/PenturaLabs)
 
-https://github.com/craigz28/firmwalker
+[Unix Priv-Esc Check](https://github.com/pentestmonkey/unix-privesc-check) by [Pentestmonkey](https://github.com/pentestmonkey)
+
+
+
