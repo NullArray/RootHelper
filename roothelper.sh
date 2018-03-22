@@ -17,11 +17,11 @@ The 'Clean up' option removes all downloaded files and 'Quit' exits roothelper.\
 # Download and unzip
 function dzip()
 {    echo "Downloading and extracting scripts..."
-    `wget -O /tmp/ExploitSuggest.py http://www.securitysift.com/download/linuxprivchecker.py`
-    `wget -O /tmp/LinEnum.zip https://github.com/rebootuser/LinEnum/archive/master.zip`                  
-    `wget -O /tmp/ExploitSuggest_perl.zip https://github.com/PenturaLabs/Linux_Exploit_Suggester/archive/master.zip`  
-    `wget -O /tmp/unixprivesc.zip https://github.com/pentestmonkey/unix-privesc-check/archive/1_x.zip`
-    `wget -O /tmp/firmwalker.zip https://github.com/craigz28/firmwalker/archive/master.zip`
+    `curl -O -L http://www.securitysift.com/download/linuxprivchecker.py > /tmp/ExploitSuggest.py`
+    `curl -O -L https://github.com/rebootuser/LinEnum/archive/master.zip > /tmp/LinEnum.zip`                  
+    `curl -O -L https://github.com/PenturaLabs/Linux_Exploit_Suggester/archive/master.zip > /tmp/ExploitSuggest_perl.zip `  
+    `curl -O -L https://github.com/pentestmonkey/unix-privesc-check/archive/1_x.zip > /tmp/unixprivesc.zip`
+    `curl -O -L https://github.com/craigz28/firmwalker/archive/master.zip > /tmp/firmwalker.zip`
     for zip in *.zip
     do
         dirname=`echo $zip | sed 's/\.zip$//'`
@@ -58,11 +58,11 @@ do
             ;;
         "Download")
             echo "Downloading scripts to $dir"
-            `wget -O /tmp/ExploitSuggest.py http://www.securitysift.com/download/linuxprivchecker.py`
-            `wget -O /tmp/LinEnum.zip https://github.com/rebootuser/LinEnum/archive/master.zip`                  
-            `wget -O /tmp/ExploitSuggest_perl.zip https://github.com/PenturaLabs/Linux_Exploit_Suggester/archive/master.zip`
-            `wget -O /tmp/unixprivesc.zip https://github.com/pentestmonkey/unix-privesc-check/archive/1_x.zip`
-            `wget -O /tmp/firmwalker.zip https://github.com/craigz28/firmwalker/archive/master.zip`
+            `curl -O -L http://www.securitysift.com/download/linuxprivchecker.py > /tmp/ExploitSuggest.py`
+            `curl -O -L https://github.com/rebootuser/LinEnum/archive/master.zip > /tmp/LinEnum.zip`                  
+            `curl -O -L https://github.com/PenturaLabs/Linux_Exploit_Suggester/archive/master.zip > /tmp/ExploitSuggest_perl.zip `
+            `curl -O -L https://github.com/pentestmonkey/unix-privesc-check/archive/1_x.zip > /tmp/unixprivesc.zip`
+            `curl -O -L https://github.com/craigz28/firmwalker/archive/master.zip > /tmp/firmwalker.zip`
              printf "%b \n"
             ;;
         "Download and unzip")
