@@ -4,6 +4,10 @@ and exploit suggestion scripts. The latest version downloads five scripts. Two e
 
 The credits for the scripts it fetches go to the original authors.
 
+## Update
+
+A new version of `Linux Exploit Suggester` has been released recently. It is an updated version based on the old one by PenturaLabs, see 'Acknowledgements' below, for the Github and name of the developer who wrote the latest version.
+
 ## Note
 
 I've recently added a new script to my Github that follows the general principles of this script however it aims to be more comprehensive with regards to it's capabilities. Besides downloading scripts that aid in privilege escalation on a Linux system it also comes with functionality to enumerate the system in question and search for cleartext credentials and much more. It is in many regards RootHelper's successor and it can be found by clicking [here](https://github.com/NullArray/Bash-Kit-Multitool).
@@ -47,9 +51,9 @@ note; if the 'mkdir' command is unavailable however, the operation will not succ
 The 'Clean up' option removes all downloaded files and 'Quit' exits roothelper.
 ```
 
+### Acknowledgements
 
-
-Credits for the other scripts go to their original authors.
+Credits for scripts RootHelper fetches go to their original authors.
 
 [LinEnum](https://github.com/rebootuser/LinEnum) by [RebootUser](https://github.com/rebootuser)
 
@@ -57,7 +61,7 @@ Credits for the other scripts go to their original authors.
 
 [Linux Priv Checker](http://www.securitysift.com/download/linuxprivchecker.py) by [SecuritySift](http://www.securitysift.com)
 
-[Linux Exploit Suggester](https://github.com/PenturaLabs/Linux_Exploit_Suggester) by [PenturaLabs](https://github.com/PenturaLabs)
+[Linux Exploit Suggester](https://github.com/jondonas/linux-exploit-suggester-2) by [Jondonas](https://github.com/jondonas)
 
 [Unix Priv-Esc Check](https://github.com/pentestmonkey/unix-privesc-check) by [Pentestmonkey](https://github.com/pentestmonkey)
 
