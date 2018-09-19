@@ -18,7 +18,8 @@ The 'Clean up' option removes all downloaded files and 'Quit' exits roothelper.\
 function dzip()
 {    echo "Downloading and extracting scripts..."
     `wget -O /tmp/ExploitSuggest.py http://www.securitysift.com/download/linuxprivchecker.py`
-    `wget -O /tmp/LinEnum.zip https://github.com/rebootuser/LinEnum/archive/master.zip`                  
+    `wget -O /tmp/LinEnum.zip https://github.com/rebootuser/LinEnum/archive/master.zip`
+    `wget -O /tmp/Bashark.zip https://github.com/TheSecondSun/Bashark/archive/master.zip`
     `wget -O /tmp/ExploitSuggest_perl.zip https://github.com/jondonas/linux-exploit-suggester-2/archive/master.zip`  
     `wget -O /tmp/unixprivesc.zip https://github.com/pentestmonkey/unix-privesc-check/archive/1_x.zip`
     `wget -O /tmp/firmwalker.zip https://github.com/craigz28/firmwalker/archive/master.zip`
@@ -59,7 +60,8 @@ do
         "Download")
             echo "Downloading scripts to $dir"
             `wget -O /tmp/ExploitSuggest.py http://www.securitysift.com/download/linuxprivchecker.py`
-            `wget -O /tmp/LinEnum.zip https://github.com/rebootuser/LinEnum/archive/master.zip`                  
+            `wget -O /tmp/LinEnum.zip https://github.com/rebootuser/LinEnum/archive/master.zip`
+            `wget -O /tmp/Bashark.zip https://github.com/TheSecondSun/Bashark/archive/master.zip`
             `wget -O /tmp/ExploitSuggest_perl.zip https://github.com/PenturaLabs/Linux_Exploit_Suggester/archive/master.zip`
             `wget -O /tmp/unixprivesc.zip https://github.com/pentestmonkey/unix-privesc-check/archive/1_x.zip`
             `wget -O /tmp/firmwalker.zip https://github.com/craigz28/firmwalker/archive/master.zip`
