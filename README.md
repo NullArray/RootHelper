@@ -23,6 +23,11 @@ unix-privesc-check
 ```
 Shellscript that enumerates the system configuration and runs some privilege escalation checks as well.
 ```
+BashArk
+```
+BashArk is post exploitation tool written in Bash.
+
+```
 Firmwalker
 ```
 Shellscript that gathers useful information by searching the mounted firmware filesystem. For things such as SSL and web server related files, config files, passwords, common binaries and more. 
@@ -58,6 +63,8 @@ Credits for scripts RootHelper fetches go to their original authors.
 [LinEnum](https://github.com/rebootuser/LinEnum) by [RebootUser](https://github.com/rebootuser)
 
 [Firmwalker](https://github.com/craigz28/firmwalker) by [Craigz28](https://github.com/craigz28)
+
+[BashArk](https://github.com/TheSecondSun/Bashark) by [TheSecondSun](https://github.com/TheSecondSun)
 
 [Linux Priv Checker](http://www.securitysift.com/download/linuxprivchecker.py) by [SecuritySift](http://www.securitysift.com)
 
