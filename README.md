@@ -10,7 +10,7 @@ A new version of `Linux Exploit Suggester` has been released recently. It is an 
 
 ## Note
 
-I've recently added a new script to my Github that follows the general principles of this script however it aims to be more comprehensive with regards to it's capabilities. Besides downloading scripts that aid in privilege escalation on a Linux system it also comes with functionality to enumerate the system in question and search for cleartext credentials and much more. It is in many regards RootHelper's successor and it can be found by clicking [here](https://github.com/NullArray/Bash-Kit-Multitool).
+There's another script on my Github that follows the general principles of this script however it aims to be more comprehensive with regards to it's capabilities. Besides downloading scripts that aid in privilege escalation on a Linux system it also comes with functionality to enumerate the system in question without first having to download any other external tools. It can also search for cleartext credentials and more. It could be considered RootHelper's sister script that comes with more features, it can be found by clicking [here](https://github.com/NullArray/Bash-Kit-Multitool). If you prefer to keep it simple yet effective I got you covered with RootHelper, since both scripts will continue to be maintained and updated for the foreseeable future.
 
 # Priv-Esc scripts
 
