@@ -6,11 +6,11 @@ The credits for the scripts it fetches go to the original authors.
 
 ## Update
 
-A new version of `Linux Exploit Suggester` has been released recently. It is an updated version based on the old one by PenturaLabs, see 'Acknowledgements' below, for the Github and name of the developer who wrote the latest version.
+BashArk; a post-exploitation tool. Is now available for download with RootHelper. The author of this tool is accredited for their work under the 'Acknowledgements' header a little further down in this README.md.
 
-## Note
+A new version of `Linux Exploit Suggester` has been released. It is an updated version based on the old one by PenturaLabs. The author of this tool and others available through RootHelper are accredited for their work below.
 
-There's another script on my Github that follows the general principles of this script however it aims to be more comprehensive with regards to it's capabilities. Besides downloading scripts that aid in privilege escalation on a Linux system it also comes with functionality to enumerate the system in question without first having to download any other external tools. It can also search for cleartext credentials and more. It could be considered RootHelper's sister script with an increased richness of features, it can be found by clicking [here](https://github.com/NullArray/Bash-Kit-Multitool). If you prefer a minimalsist approach, I got you covered, since both scripts will continue to be maintained and updated for the foreseeable future.
+
 
 # Priv-Esc scripts
 
@@ -55,6 +55,10 @@ note; if the 'mkdir' command is unavailable however, the operation will not succ
 
 The 'Clean up' option removes all downloaded files and 'Quit' exits roothelper.
 ```
+### Note
+
+There's another script on my Github that follows the general principles of this script however it aims to be more comprehensive with regards to it's capabilities. Besides downloading scripts that aid in privilege escalation on a Linux system it also comes with functionality to enumerate the system in question without first having to download any other external tools. It can also search for cleartext credentials and more. It could be considered RootHelper's sister script with an increased richness of features, it can be found by clicking [here](https://github.com/NullArray/Bash-Kit-Multitool). If you prefer a minimalsist approach, I got you covered, since both scripts will continue to be maintained and updated for the foreseeable future.
+
 
 ### Acknowledgements
 
