@@ -6,6 +6,8 @@ The credits for the scripts it fetches go to the original authors.
 
 ## Update
 
+`SBD` or Static Binary Deployer has been added to the tools available for download with RootHelper.
+
 `BashArk`; a post-exploitation tool. Is now available for download with RootHelper. The author of this tool is accredited for their work under the 'Acknowledgements' header a little further down in this README.md.
 
 A new version of `Linux Exploit Suggester` has been released. It is an updated version based on the old one by PenturaLabs. The author of this tool and others available through RootHelper are accredited for their work below.
@@ -40,6 +42,11 @@ A python implementation to suggest exploits particular to the system that's been
 Linux_Exploit_Suggester
 ```
 A perl script that that does the same as the one mentioned above.
+
+```
+SBD
+```
+SBD Makes it possible to deploy static binaries of common (and less common) Linux utilities that mightn otherwise be unavailable.
 
 # Usage
 
@@ -76,5 +83,6 @@ Credits for scripts RootHelper fetches go to their original authors.
 
 [Unix Priv-Esc Check](https://github.com/pentestmonkey/unix-privesc-check) by [Pentestmonkey](https://github.com/pentestmonkey)
 
+[SBD](https://github.com/NullArray/SBD) by [Me](https://github.com/NullArray)
 
 
