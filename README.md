@@ -46,7 +46,7 @@ A perl script that that does the same as the one mentioned above.
 ```
 SBD
 ```
-SBD Makes it possible to deploy static binaries of common (and less common) Linux utilities that mightn otherwise be unavailable.
+SBD Makes it possible to deploy static binaries of common (and less common) Linux utilities that might otherwise be unavailable.
 
 # Usage
 
