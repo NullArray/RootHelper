@@ -83,6 +83,5 @@ Credits for scripts RootHelper fetches go to their original authors.
 
 [Unix Priv-Esc Check](https://github.com/pentestmonkey/unix-privesc-check) by [Pentestmonkey](https://github.com/pentestmonkey)
 
-[SBD](https://github.com/NullArray/SBD) by [Me](https://github.com/NullArray)
 
 
