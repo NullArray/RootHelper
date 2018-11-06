@@ -19,6 +19,7 @@ function dzip()
 {    echo "Downloading and extracting scripts..."
     `wget -O /tmp/ExploitSuggest.py http://www.securitysift.com/download/linuxprivchecker.py`
     `wget -O /tmp/sbd.zip https://github.com/NullArray/SBD/archive/master.zip`
+    `wget -O /tmp/AutoRoot.zip https://github.com/nilotpalbiswas/Auto-Root-Exploit/archive/master.zip`
     `wget -O /tmp/LinEnum.zip https://github.com/rebootuser/LinEnum/archive/master.zip`
     `wget -O /tmp/Bashark.zip https://github.com/TheSecondSun/Bashark/archive/master.zip`
     `wget -O /tmp/ExploitSuggest_perl.zip https://github.com/jondonas/linux-exploit-suggester-2/archive/master.zip`  
@@ -62,6 +63,7 @@ do
             echo "Downloading scripts to $dir"
             `wget -O /tmp/ExploitSuggest.py http://www.securitysift.com/download/linuxprivchecker.py`
             `wget -O /tmp/sbd.zip https://github.com/NullArray/SBD/archive/master.zip`
+            `wget -O /tmp/AutoRoot.zip https://github.com/nilotpalbiswas/Auto-Root-Exploit/archive/master.zip`
             `wget -O /tmp/LinEnum.zip https://github.com/rebootuser/LinEnum/archive/master.zip`
             `wget -O /tmp/Bashark.zip https://github.com/TheSecondSun/Bashark/archive/master.zip`
             `wget -O /tmp/ExploitSuggest_perl.zip https://github.com/PenturaLabs/Linux_Exploit_Suggester/archive/master.zip`
