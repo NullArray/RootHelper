@@ -6,9 +6,9 @@ The credits for the scripts it fetches go to the original authors.
 
 ## Update
 
-`Auto-Root-Exploit` Is now available through RootHelper. The author of which is accredited below.
-
 `SBD` or Static Binary Deployer has been added to the tools available for download with RootHelper.
+
+`Auto-Root-Exploit` Is now available through RootHelper. The author of which is accredited below.
 
 `BashArk`; a post-exploitation tool. Is now available for download with RootHelper. The author of this tool is accredited for their work under the 'Acknowledgements' header a little further down in this README.md.
 
@@ -42,6 +42,7 @@ SBD
 ```
 SBD Makes it possible to deploy static binaries of common (and less common) Linux utilities that might otherwise be unavailable.
 ```
+
 Auto-Root-Exploit
 ```
 Auto-Root-Exploit is a shell script that downloads and executes all known publically available exploits from [Exploit-DB](https://www.exploit-db.com/) for the system and kernel version you supply via the tool's command-line arguments.
