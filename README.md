@@ -7,11 +7,11 @@ The credits for the scripts it fetches go to their original authors.
 
 `SBD` or Static Binary Deployer has been added to the tools available for download with RootHelper.
 
-`Auto-Root-Exploit` Is now available through RootHelper. The author of which is accredited below.
+`Auto-Root-Exploit` Is now available through RootHelper.
 
-`BashArk`; a post-exploitation tool. Is now available for download with RootHelper. The author of this tool is accredited for their work under the 'Acknowledgements' header a little further down in this README.md.
+`BashArk`; a post-exploitation tool. Is now available for download with RootHelper.
 
-A new version of `Linux Exploit Suggester` has been released. It is an updated version based on the old one by PenturaLabs. The author of this tool and others available through RootHelper are accredited for their work below.
+A new version of `Linux Exploit Suggester` has been released. It is an updated version based on the old one by PenturaLabs. The author of this tool and all others available through RootHelper are accredited for their excellent work below.
 
 
 
