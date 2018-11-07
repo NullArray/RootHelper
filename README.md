@@ -6,6 +6,8 @@ The credits for the scripts it fetches go to the original authors.
 
 ## Update
 
+`Auto-Root-Exploit` Is now available through RootHelper. The author of which is accredited below.
+
 `SBD` or Static Binary Deployer has been added to the tools available for download with RootHelper.
 
 `BashArk`; a post-exploitation tool. Is now available for download with RootHelper. The author of this tool is accredited for their work under the 'Acknowledgements' header a little further down in this README.md.
@@ -24,15 +26,7 @@ Shellscript that enumerates the system configuration.
 unix-privesc-check 
 ```
 Shellscript that enumerates the system configuration and runs some privilege escalation checks as well.
-```
-BashArk
-```
-BashArk is post exploitation tool written in Bash.
 
-```
-Firmwalker
-```
-Shellscript that gathers useful information by searching the mounted firmware filesystem. For things such as SSL and web server related files, config files, passwords, common binaries and more. 
 ```
 linuxprivchecker
 ```
@@ -47,6 +41,21 @@ A perl script that that does the same as the one mentioned above.
 SBD
 ```
 SBD Makes it possible to deploy static binaries of common (and less common) Linux utilities that might otherwise be unavailable.
+```
+Auto-Root-Exploit
+```
+Auto-Root-Exploit is a shell script that downloads and executes all known publically available exploits from [Exploit-DB](https://www.exploit-db.com/) for the system and kernel version you supply via the tool's command-line arguments.
+
+```
+BashArk
+```
+BashArk is post exploitation tool written in Bash.
+
+```
+Firmwalker
+```
+Shellscript that gathers useful information by searching the mounted firmware filesystem. For things such as SSL and web server related files, config files, passwords, common binaries and more. 
+
 
 # Usage
 
@@ -74,6 +83,8 @@ Credits for scripts RootHelper fetches go to their original authors.
 [LinEnum](https://github.com/rebootuser/LinEnum) by [RebootUser](https://github.com/rebootuser)
 
 [Firmwalker](https://github.com/craigz28/firmwalker) by [Craigz28](https://github.com/craigz28)
+
+[Auto-Root-Exploit](https://github.com/nilotpalbiswas/Auto-Root-Exploit) by [nilotpalbiswas](https://github.com/nilotpalbiswas)
 
 [BashArk](https://github.com/TheSecondSun/Bashark) by [TheSecondSun](https://github.com/TheSecondSun)
 
