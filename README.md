@@ -73,7 +73,7 @@ The 'Clean up' option removes all downloaded files and 'Quit' exits roothelper.
 ```
 ### Note
 
-There's another script on my Github that follows the general principles of this script however it aims to be more comprehensive with regards to it's capabilities. Besides downloading scripts that aid in privilege escalation on a Linux system it also comes with functionality to enumerate the system in question without first having to download any other external tools. It can also search for cleartext credentials and more. It could be considered RootHelper's sister script with an increased richness of features, it can be found by clicking [here](https://github.com/NullArray/Bash-Kit-Multitool). If you prefer a minimalsist approach, I got you covered, since both scripts will continue to be maintained and updated for the foreseeable future.
+There's another script on my Github that follows the general principles of this script however it aims to be more comprehensive with regards to it's capabilities. Besides downloading scripts that aid in privilege escalation on a Linux system it also comes with functionality to enumerate the system in question without first having to download any other external tools. It can also search for cleartext credentials and more. It could be considered RootHelper's sister script with an increased richness of features, it can be found by clicking [here](https://github.com/NullArray/Bash-Kit-Multitool). If you prefer a minimalist approach, I got you covered, since both scripts will continue to be maintained and updated for the foreseeable future.
 
 
 ### Acknowledgements
