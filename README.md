@@ -1,6 +1,5 @@
 # RootHelper
-Roothelper will aid in the process of privilege escalation on a Linux system that has been compromised, by fetching a number of enumeration
-and exploit suggestion scripts. The latest version downloads five scripts. Two enumeration shellscripts, one information gathering shellscript and two exploit suggesters, one written in perl and the other one in python.
+Roothelper will aid in the process of privilege escalation on a Linux system that has been compromised. The latest version downloads eight scripts. From enumeration to exploit suggestion to exploit deployment. RootHelper ensures you have access to the best tools for the job.
 
 The credits for the scripts it fetches go to the original authors.
 
@@ -41,8 +40,8 @@ A perl script that that does the same as the one mentioned above.
 SBD
 ```
 SBD Makes it possible to deploy static binaries of common (and less common) Linux utilities that might otherwise be unavailable.
-```
 
+```
 Auto-Root-Exploit
 ```
 Auto-Root-Exploit is a shell script that downloads and executes all known publically available exploits from [Exploit-DB](https://www.exploit-db.com/) for the system and kernel version you supply via the tool's command-line arguments.
