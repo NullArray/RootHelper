@@ -5,7 +5,7 @@ The credits for the scripts it fetches go to their original authors.
 
 ## Update
 
-`SBD` or Static Binary Deployer has been added to the tools available for download with RootHelper.
+`SBD` or Static Binary Deployer has been added to the tools available for download with RootHelper. For details on this utility find my repo [here](https://github.com/NullArray/SBD)
 
 `Auto-Root-Exploit` Is now available through RootHelper.
 
