@@ -14,37 +14,69 @@ note; if the 'mkdir' command is unavailable however, the operation will not succ
 The 'Clean up' option removes all downloaded files and 'Quit' exits roothelper.\n "
 }
 
+# Declare destination directory
+rh_dest="/tmp"
+
+# Declare associative array for the helpers
+declare -A RHelpers
+
+# Assign helpers to download locations
+RHelpers['ExploitSuggest.py']="http://www.securitysift.com/download/linuxprivchecker.py" 
+RHelpers['sbd.zip']="https://github.com/NullArray/SBD/archive/master.zip" 
+RHelpers['AutoRoot.zip']="https://github.com/nilotpalbiswas/Auto-Root-Exploit/archive/master.zip" 
+RHelpers['LinEnum.zip']="https://github.com/rebootuser/LinEnum/archive/master.zip" 
+RHelpers['Bashark.zip']="https://github.com/TheSecondSun/Bashark/archive/master.zip" 
+RHelpers['ExploitSuggest_perl.zip']="https://github.com/jondonas/linux-exploit-suggester-2/archive/master.zip" 
+RHelpers['unixprivesc.zip']="https://github.com/pentestmonkey/unix-privesc-check/archive/1_x.zip" 
+
+# Download
+function rh_download()
+{
+    for h in "${!RHelpers[@]}"; do
+        wget -nv -O "${rh_dest}/$h" "${RHelpers[$h]}"
+    done
+}
+
 # Download and unzip
 function dzip()
-{    echo "Downloading and extracting scripts..."
-    `wget -O /tmp/ExploitSuggest.py http://www.securitysift.com/download/linuxprivchecker.py`
-    `wget -O /tmp/sbd.zip https://github.com/NullArray/SBD/archive/master.zip`
-    `wget -O /tmp/AutoRoot.zip https://github.com/nilotpalbiswas/Auto-Root-Exploit/archive/master.zip`
-    `wget -O /tmp/LinEnum.zip https://github.com/rebootuser/LinEnum/archive/master.zip`
-    `wget -O /tmp/Bashark.zip https://github.com/TheSecondSun/Bashark/archive/master.zip`
-    `wget -O /tmp/ExploitSuggest_perl.zip https://github.com/jondonas/linux-exploit-suggester-2/archive/master.zip`  
-    `wget -O /tmp/unixprivesc.zip https://github.com/pentestmonkey/unix-privesc-check/archive/1_x.zip`
-    `wget -O /tmp/firmwalker.zip https://github.com/craigz28/firmwalker/archive/master.zip`
-    for zip in *.zip
-    do
-        dirname=`echo $zip | sed 's/\.zip$//'`
-        if mkdir $dirname
+{
+    echo "Downloading and extracting scripts..."
+    rh_download
+   
+    cd "$rh_dest"
+    for h in "${!RHelpers[@]}"; do
+        # Get the name without .zip
+        h_name="${h%%.zip}"
+
+        # If it was not a .zip, $h_name will equal $h, so we skip it
+        [ "$h_name" == "$h" ] && continue
+
+        if mkdir "$h_name"
         then
-            if cd $dirname
+            if pushd "$h_name"
             then
-                unzip ../$zip
-                cd ..
-                rm -f $zip
+                unzip "../$h"
+                popd
+                rm -f "$h"
             else
-                echo "Could not unpack $zip - cd failed"
+                echo "Could not unpack $h - cd failed"
             fi
         else
-            echo "Could not unpack $zip - mkdir failed"
+            echo "Could not unpack $h - mkdir failed"
         fi
     done
 }
 
-dir="/tmp/"
+function rh_clean()
+{
+    for h in "${!RHelpers[@]}"; do
+        # Get the name without .zip
+        h_name="${h%%.zip}"
+
+        [ -f "$rh_dest/$h" ] && rm "$rh_dest/$h"
+        [ -d "$rh_dest/$h_name" ] && rm -r "$rh_dest/$h_name"
+    done
+}
 
 usage
 
@@ -60,16 +92,9 @@ do
             printf "%b \n"
             ;;
         "Download")
-            echo "Downloading scripts to $dir"
-            `wget -O /tmp/ExploitSuggest.py http://www.securitysift.com/download/linuxprivchecker.py`
-            `wget -O /tmp/sbd.zip https://github.com/NullArray/SBD/archive/master.zip`
-            `wget -O /tmp/AutoRoot.zip https://github.com/nilotpalbiswas/Auto-Root-Exploit/archive/master.zip`
-            `wget -O /tmp/LinEnum.zip https://github.com/rebootuser/LinEnum/archive/master.zip`
-            `wget -O /tmp/Bashark.zip https://github.com/TheSecondSun/Bashark/archive/master.zip`
-            `wget -O /tmp/ExploitSuggest_perl.zip https://github.com/PenturaLabs/Linux_Exploit_Suggester/archive/master.zip`
-            `wget -O /tmp/unixprivesc.zip https://github.com/pentestmonkey/unix-privesc-check/archive/1_x.zip`
-            `wget -O /tmp/firmwalker.zip https://github.com/craigz28/firmwalker/archive/master.zip`
-             printf "%b \n"
+            echo "Downloading scripts to $rh_dest"
+            rh_download
+            printf "%b \n"
             ;;
         "Download and unzip")
             dzip
@@ -77,7 +102,7 @@ do
             ;;
          "Clean up")
             echo "Removing downloaded files"
-            find $dir/* -exec rm {} \;
+            rh_clean
             printf "%b \n"
             ;;
         "Quit")
