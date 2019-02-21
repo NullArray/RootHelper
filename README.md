@@ -4,6 +4,13 @@ Roothelper will aid in the process of privilege escalation on a Linux system tha
 The credits for the scripts it fetches go to their original authors.
 
 ## Update
+RootHelper now supports command line arguments/flags.
+
+The `-q` or `--quiet` flag supresses the `usage` print function on execution. Therefore you can now simply pass `-q` and be taken directly to the menu.
+
+The `-f` or `--fast` flag immediately starts the execution of the script's `download` option. If time is of the essence the `-f` flag will hurry things along.
+
+`Linux Smart Enumeration` Is the latest addition to the tools available with RootHelper. It's a tool based on LinEnum but with a heavy focus on the privilege escalation aspect and those possibilities enumeration tools provide.
 
 `SBD` or Static Binary Deployer has been added to the tools available for download with RootHelper. For details on this utility find my repo [here](https://github.com/NullArray/SBD)
 
@@ -21,6 +28,11 @@ A new version of `Linux Exploit Suggester` has been released. It is an updated v
 LinEnum
 ```
 Shellscript that enumerates the system configuration.
+```
+Linux Smart Enumeration
+```
+LinEnum fork with a heavy focus on the privilege escalation.
+
 ```
 unix-privesc-check 
 ```
@@ -78,7 +90,12 @@ There's another script on my Github that follows the general principles of this 
 
 ### Acknowledgements
 
+Special thanks to [DiegoTreitos](https://github.com/diego-treitos) for his efforts in optimizing RootHelper's source code.
+
+
 Credits for scripts RootHelper fetches go to their original authors.
+
+[linux-smart-enumeration](https://github.com/diego-treitos/linux-smart-enumeration) by [DiegoTreitos](https://github.com/diego-treitos)
 
 [LinEnum](https://github.com/rebootuser/LinEnum) by [RebootUser](https://github.com/rebootuser)
 
