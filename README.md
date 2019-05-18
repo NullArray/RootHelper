@@ -10,7 +10,7 @@ The `-q` or `--quiet` flag supresses the `usage` print function on execution. Th
 
 The `-f` or `--fast` flag immediately starts the execution of the script's `download` option. If time is of the essence the `-f` flag will hurry things along.
 
-`Linux Smart Enumeration` Is the latest addition to the tools available with RootHelper. It's a tool based on LinEnum but with a heavy focus on the privilege escalation aspect and that enumeration tools provide.
+`Linux Smart Enumeration` Is the latest addition to the tools available with RootHelper. It's a tool based on LinEnum but with a heavy focus on the privilege escalation aspect that enumeration tools provide.
 
 `SBD` or Static Binary Deployer has been added to the tools available for download with RootHelper. For details on this utility find my repo [here](https://github.com/NullArray/SBD)
 
