@@ -97,6 +97,7 @@ Special thanks to [DiegoTreitos](https://github.com/diego-treitos) for his effor
 
 
 Credits for scripts RootHelper fetches go to their original authors.
+
 [RedGhost](https://github.com/d4rk007/RedGhost) by [d4rk007](https://github.com/d4rk007)
 
 [linux-smart-enumeration](https://github.com/diego-treitos/linux-smart-enumeration) by [DiegoTreitos](https://github.com/diego-treitos)
