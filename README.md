@@ -10,7 +10,9 @@ The `-q` or `--quiet` flag supresses the `usage` print function on execution. Th
 
 The `-f` or `--fast` flag immediately starts the execution of the script's `download` option. If time is of the essence the `-f` flag will hurry things along.
 
-`Linux Smart Enumeration` Is the latest addition to the tools available with RootHelper. It's a tool based on LinEnum but with a heavy focus on the privilege escalation aspect that enumeration tools provide.
+`RedGhost` Is the latest addition to RootHelper, it's a Linux post-exploitation framework and payload generator.
+
+`Linux Smart Enumeration` Is available with RootHelper. It's a tool based on LinEnum but with a heavy focus on the privilege escalation aspect that enumeration tools provide.
 
 `SBD` or Static Binary Deployer has been added to the tools available for download with RootHelper. For details on this utility find my repo [here](https://github.com/NullArray/SBD)
 
@@ -66,7 +68,12 @@ BashArk is post exploitation tool written in Bash.
 ```
 Firmwalker
 ```
-Shellscript that gathers useful information by searching the mounted firmware filesystem. For things such as SSL and web server related files, config files, passwords, common binaries and more. 
+Shellscript that gathers useful information by searching the mounted firmware filesystem. For things such as SSL and web server related files, config files, passwords, common binaries and more.
+
+```
+RedGhost
+```
+Linux post exploitation framework designed to assist in persistence, reconnaissance, privilege escalation and leaving no trace. 
 
 
 # Usage
@@ -90,6 +97,7 @@ Special thanks to [DiegoTreitos](https://github.com/diego-treitos) for his effor
 
 
 Credits for scripts RootHelper fetches go to their original authors.
+[RedGhost](https://github.com/d4rk007/RedGhost) by [d4rk007](https://github.com/d4rk007)
 
 [linux-smart-enumeration](https://github.com/diego-treitos/linux-smart-enumeration) by [DiegoTreitos](https://github.com/diego-treitos)
 
