@@ -96,7 +96,7 @@ function rh_clean(){
 
 
 if [[ "$1" != "" ]]; then
-    case $1 in
+	case $1 in
 		'-f' | '--fast' )
 		fast=1
 	esac
