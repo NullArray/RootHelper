@@ -24,6 +24,7 @@ TotD[1]="\nTip: Starting the script with '-f' or '--fast' immediately downloads 
 TotD[2]="\nTip: Choosing option 1 in the main menu loop will print extended usage information\n "
 TotD[3]="\nTip: Choosing option 4 in the main menu automatically removes all downloaded items in /tmp\n"
 TotD[4]="\nTip: Individual links to Helper scripts can be found at; github.com/NullArray/RootHelper\n"
+TotD[5]="\nTip: Know of the perfect tool that would compliment the assortment available through RootHelper?\nLet the Dev know over at github.com/NullArray/RootHelper/issues."
 
 # Declare destination directory
 rh_dest="/tmp"
