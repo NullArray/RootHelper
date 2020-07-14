@@ -4,11 +4,19 @@ Roothelper will aid in the process of privilege escalation on a Linux system tha
 The credits for the scripts it fetches go to their original authors.
 
 ## Update
+
+Latest update has added a brand new Helper script. Details below. 
+
 RootHelper now supports command line arguments/flags.
 
 The `-q` or `--quiet` flag supresses the `usage` print function on execution. Therefore you can now simply pass `-q` and be taken directly to the menu.
 
 The `-f` or `--fast` flag immediately starts the execution of the script's `download` option. If time is of the essence the `-f` flag will hurry things along.
+
+### Latest Helper Scripts
+
+The latest addition to the scripts available through RootHelper is `rootend.py`. It's a python3 implementation that automates
+enumeration and and privilege escalation operations.
 
 `RedGhost` Is the latest addition to RootHelper, it's a Linux post-exploitation framework and payload generator.
 
@@ -75,6 +83,11 @@ RedGhost
 ```
 Linux post exploitation framework designed to assist in persistence, reconnaissance, privilege escalation and leaving no trace. 
 
+```
+rootend
+```
+Rootend automates enumeration and privilege escalation operations by targetting a wide arrange of potential exploitations catagories. It does so by looking for SUID bit enabled binaries. Weak permissions on security critical components, finding PHP COnfiguration files and much more.
+
 
 # Usage
 
@@ -97,6 +110,8 @@ Special thanks to [DiegoTreitos](https://github.com/diego-treitos) for his effor
 
 
 Credits for scripts RootHelper fetches go to their original authors.
+
+[rootend](https://github.com/twelvesec/rootend) by [nickvourd](https://github.com/nickvourd) and [Maldevel](https://github.com/maldevel) from [TwelveSec](https://github.com/twelvesec).
 
 [RedGhost](https://github.com/d4rk007/RedGhost) by [d4rk007](https://github.com/d4rk007)
 
