@@ -41,7 +41,8 @@ RHelpers['Linux-Smart-Enumeration']="https://github.com/diego-treitos/linux-smar
 RHelpers['Bashark.zip']="https://github.com/TheSecondSun/Bashark/archive/master.zip"
 RHelpers['ExploitSuggest_perl.zip']="https://github.com/jondonas/linux-exploit-suggester-2/archive/master.zip"
 RHelpers['unixprivesc.zip']="https://github.com/pentestmonkey/unix-privesc-check/archive/1_x.zip"
-Rhelpers['RedGhost.zip']="https://github.com/d4rk007/RedGhost/archive/master.zip"
+RHelpers['RedGhost.zip']="https://github.com/d4rk007/RedGhost/archive/master.zip"
+RHelpers['rootend.zip']="https://github.com/twelvesec/rootend/archive/master.zip"
 
 # Download
 function rh_download(){
