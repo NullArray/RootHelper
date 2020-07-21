@@ -86,7 +86,7 @@ Linux post exploitation framework designed to assist in persistence, reconnaissa
 ```
 rootend
 ```
-Rootend automates enumeration and privilege escalation operations by targetting a wide arrange of potential exploitations catagories. It does so by looking for SUID bit enabled binaries. Weak permissions on security critical components, finding PHP Configuration files and much more.
+Rootend automates enumeration and privilege escalation operations by targetting a wide range of potential exploitation catagories. It does so by looking for SUID bit enabled binaries. Weak permissions on security critical components, finding PHP Configuration files and much more.
 
 
 # Usage
