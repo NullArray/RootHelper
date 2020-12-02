@@ -16,7 +16,7 @@ The `-f` or `--fast` flag immediately starts the execution of the script's `down
 ### Latest Helper Scripts
 
 The latest addition to the scripts available through RootHelper is `rootend.py`. It's a python3 implementation that automates
-enumeration and and privilege escalation operations.
+enumeration and privilege escalation operations.
 
 `RedGhost` Is the now available with RootHelper, it's a Linux post-exploitation framework and payload generator.
 
