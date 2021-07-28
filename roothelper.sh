@@ -48,7 +48,16 @@ RHelpers['rootend.zip']="https://github.com/twelvesec/rootend/archive/master.zip
 function rh_download(){
 
     for h in "${!RHelpers[@]}"; do
-        wget -nv -O "${rh_dest}/$h" "${RHelpers[$h]}"
+        dest="${rh_dest}/$h"
+        url="${RHelpers[$h]}"
+
+	if [ -x "$(which wget)" ] ; then
+	    wget -nv -O "$dest" "$url"
+	elif [ -x "$(which curl)" ]; then
+	    curl -o "$dest" -sfL "$url"
+	else
+            echo "Could not find curl or wget."
+    fi
     done
 }
 
